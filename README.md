@@ -28,8 +28,7 @@
 1. [Fundamentos da linguagem](./src/basico/basico.md)
    - Estrutura básica de um programa em C
    - Compilação e execução
-   - Variáveis e tipos de dados primitivos
-   - Operadores aritméticos e lógicos
+   - Variáveis
 
 2. Entrada e saída básica
    - Funções printf() e scanf()

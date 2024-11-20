@@ -24,7 +24,51 @@ int main()
 
 ## Compilação e execução
 
+Todo código de C precisa ser compilado antes de ser executado. Diferente de linguagens interpretadas como Ruby e Python, onde um programa chamado Interpretador realiza
+a execução do código em "tempo real". O código de C tem de ser "transformado" em código de máquina para ser processado pela CPU.
+```sh
+# exemplo de compilação e execução de um programa escrito em c utilizando o compilador gcc
+# linhas iniciadas com $ são comandos executados em um terminal de linux
 
+# compila o arquivo de código teste.c, gerando um arquivo executável com nome "teste"
+$ gcc teste.c -o teste
 
-## Variáveis e tipos de dados primitivos
-## Operadores aritméticos e lógicos
+# executa o código compilado anteriormente
+$ ./teste
+```
+
+## Variáveis
+
+C possui tipos primitivos básicos:
+> Um tipo primitivo geralmente é aquele que é básico, oriundo da própria linguagem.
+
+- char (8 bits)
+- int (32 bits, a depender da CPU)
+- float (32 bits, a depender da CPU)
+- double (64 bits, a depender da CPU)
+
+> Não há tipos primitivos booleanos em C (true e false), o inteiro 0 é interpretado como *false* e qualquer outra coisa diferente de 0 é interpretada como *true*.
+```c
+// O código abaixo tem como saída:
+// 1 é interpretado como true
+// 0 é interpretado como false
+int main()
+{
+    int true = 1;
+    int false = 0;
+
+    if (true) {
+        printf("1 é interpretado como true\n");
+    } else {
+        printf("1 é interpretado como false\n");
+    }
+
+    if (false) {
+        printf("0 é interpretado como true\n");
+    } else {
+        printf("0 é interpretado como false\n");
+    }
+
+    return 0;
+}
+```
