@@ -25,7 +25,7 @@
 ### Roteiro de aprendizado
 > Nota: não será dito como instalar os compiladores da linguagem, utilizem algum mecanismo de pesquisa. De preferência, pesquisem como executar C no visual studio code, ou baixem code::blocks ou utilizem gcc/clang na linha de comando do terminal.
 
-1. Fundamentos da linguagem
+1. [Fundamentos da linguagem](./src/basico/basico.md)
    - Estrutura básica de um programa em C
    - Compilação e execução
    - Variáveis e tipos de dados primitivos
