@@ -5,16 +5,16 @@ Comumente, a função *main* retorna um inteiro (*int*) igual a 0 para execuçã
 ```c
  /*
   * estrutura de uma função em C:
-  * tipo nome(argumentos) 
+  * tipo nome(argumentos)
   * {
   *   // código a ser executado
   * }
-  * 
+  *
   * por exemplo, a função main:
-  * int := tipo de retorno da função
-  * main := nome da função
-  * () := lista de argumentos vazia
-  * return 0 := explicitamente retorna o inteiro `0`
+  * int -> tipo de retorno da função
+  * main -> nome da função
+  * () -> lista de argumentos vazia
+  * return 0 -> explicitamente retorna o inteiro `0`
   */
 int main()
 {
@@ -23,5 +23,8 @@ int main()
 ```
 
 ## Compilação e execução
+
+
+
 ## Variáveis e tipos de dados primitivos
 ## Operadores aritméticos e lógicos
