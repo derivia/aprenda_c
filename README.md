@@ -45,55 +45,37 @@
    - Declaração e definição
    - Passagem de parâmetros
    - Escopo de variáveis
-   - Funções recursivas
    - Ponteiros para funções
 
 5. Ponteiros
    - Conceitos básicos de ponteiros
    - Aritmética de ponteiros
-   - Ponteiros e arrays
-   - Alocação dinâmica de memória
    - Ponteiros para funções
 
 6. Gerenciamento de memória
-   - Alocação dinâmica
-   - Liberação de memória (free)
+   - Alocação dinâmica de memória
    - Prevenção de vazamentos de memória
    - Introdução ao Valgrind
-   - Boas práticas de gerenciamento de memória
 
 7. Arrays e strings
    - Declaração e manipulação de arrays
    - Strings como arrays de caracteres
    - Funções de manipulação de strings
-   - Matrizes multidimensionais
 
 8. Estruturas e unions
    - Definição de structs
    - Unions
    - Typedef
 
-9. Arquivos
-   - Abertura e fechamento de arquivos
-   - Leitura e escrita
-   - Manipulação de arquivos binários
-   - Tratamento de erros de arquivo
-
-10. Preprocessador
+9. Preprocessador
     - Diretivas
     - Macros
     - Compilação condicional
     - Inclusão de bibliotecas
 
-11. Bibliotecas-padrão comuns
+10. Bibliotecas-padrão comuns
     - stdio.h
     - stdlib.h
     - string.h
     - math.h
     - time.h
-
-12. Depuração e ferramentas
-    - Uso do GDB
-    - Valgrind em profundidade
-    - Técnicas de debug
-    - Identificação e correção de erros comuns
