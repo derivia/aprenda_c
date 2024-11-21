@@ -1,3 +1,8 @@
+/*
+ * Cabeçalho (header) `stdio.h` é incluído para utilizar a função printf()
+ * Headers são arquivos que contém declarações de funções e/ou macros
+ * permitindo compartilhar código entre diferentes arquivos .c
+ */
 #include <stdio.h>
 
 int soma(int a, int b)

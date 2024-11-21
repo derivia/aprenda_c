@@ -33,18 +33,16 @@
 2. [Entrada e saída básica](./src/io/io.md)
    - Funções printf() e scanf()
    - Formatação de saída
-   - Manipulação de strings
+   - Strings
 
-3. Estruturas de controle
+3. [Estruturas de controle](./src/control/control.md)
    - Condicionais
-   - Loops
    - Operadores de comparação
+   - Loops
 
-4. Funções
+4. [Funções](./src/control/funcoes.md)
    - Declaração e definição
    - Passagem de parâmetros
-   - Escopo de variáveis
-   - Ponteiros para funções
 
 5. Ponteiros
    - Conceitos básicos de ponteiros

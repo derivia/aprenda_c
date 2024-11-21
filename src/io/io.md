@@ -44,7 +44,7 @@ scanf("%f", &valor);
 ```
 > O operador & no segundo argumento da função scanf indica que é passada a referência (endereço da memória) da variável.
 
-## Manipulação de strings
+## Strings
 Como C não possui tipo *string* nativo, se utiliza arrays de caracteres.
 
 ```c
@@ -53,6 +53,7 @@ Como C não possui tipo *string* nativo, se utiliza arrays de caracteres.
  * Porém, a primeira é preferível quando a string for modificável, cria um array de caracteres terminado com '\0'.
  * A segunda armazena um ponteiro (pointer) para a string "Ana" armazenada numa área de somente leitura na memória.
  * Toda string que não for armazenada como somente leitura (um ponteiro para uma string na área de somente leitura) é terminada com '\0'.
+ * 
  */
 char nome[] = "Maria";
 char *outroNome = "Ana";
