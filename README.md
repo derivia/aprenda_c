@@ -1,9 +1,5 @@
 ## Aprenda C
-
-- Tabela de Conteúdos
-    - [Diferenças entre C e Python](#diferenas-entre-c-e-python)
-    - [Roteiro de aprendizado](#roteiro-de-aprendizado)
-    - [Leitura recomendada](#leitura-recomendada)
+> Assumindo que você já saiba alguma linguagem, por exemplo, Python.
 
 ### Diferenças entre C e Python
 
