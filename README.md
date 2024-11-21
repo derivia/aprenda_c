@@ -41,7 +41,7 @@
    - Operadores de comparação
    - Loops
 
-4. [Funções](./src/control/funcoes.md)
+4. [Funções](./src/funcoes/funcoes.md)
    - Declaração e definição
    - Passagem de parâmetros
 
