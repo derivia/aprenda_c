@@ -72,3 +72,5 @@ int main()
     return 0;
 }
 ```
+
+- Veja o código de exemplo: [Exemplo Básico](./basico.c)

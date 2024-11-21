@@ -30,7 +30,7 @@
    - Compilação e execução
    - Variáveis
 
-2. Entrada e saída básica
+2. [Entrada e saída básica](./src/io/io.md)
    - Funções printf() e scanf()
    - Formatação de saída
    - Tratamento de entrada do usuário
