@@ -33,3 +33,5 @@ void alteraReferencia(int *x) {
     *x = 10; // Altera o valor original
 }
 ```
+
+- Veja o código de exemplo: [Exemplo de Funções](./funcoes.c)
