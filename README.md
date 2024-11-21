@@ -1,5 +1,10 @@
 ## Aprenda C
 
+- Tabela de Conteúdos
+    - [Diferenças entre C e Python](#diferenas-entre-c-e-python)
+    - [Roteiro de aprendizado](#roteiro-de-aprendizado)
+    - [Leitura recomendada](#leitura-recomendada)
+
 ### Diferenças entre C e Python
 
 - Gerenciamento manual de memória:
@@ -76,3 +81,16 @@
     - string.h
     - math.h
     - time.h
+    - ctype.h
+
+### Leitura recomendada
+
+- The C Programming Language, Brian W. Kernighan e Dennis M. Ritchie
+    - Considerado o livro clássico e definitivo sobre a linguagem C.
+    - Escrito pelos criadores da linguagem.
+- Entendendo Algoritmos, Aditya Y. Bhargava
+    - Trata de forma visual conceitos fundamentais de algoritmos e estruturas de dados.
+    - Utiliza Python como linguagem de implementação.
+- Introduction to Algorithms, CORMEN et al.
+    - Trata sobre algoritmos clássicos, incluindo ordenação, busca, grafos, etc.
+    - Utiliza pseudocódigo como linguagem de implementação.
