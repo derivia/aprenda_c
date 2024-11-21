@@ -58,8 +58,8 @@ Como C não possui tipo *string* nativo, se utiliza arrays de caracteres.
 char nome[] = "Maria";
 char *outroNome = "Ana";
 
-nome[5] = 'h'; // adiciona o caractere 'h'
-nome[6] = '\0'; // adiciona o caractere null terminator '\0', comumente útil para ser utilizado por funções das bibliotecas de C.
+nome[5] = 'h'; // Adiciona o caractere 'h' à string.
+nome[6] = '\0'; // Adiciona o caractere null terminator '\0', útil para utilização em funções das bibliotecas de C.
 
 printf("Nomes: %s e %s", nome, outroNome);
 ```

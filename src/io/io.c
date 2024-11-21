@@ -15,7 +15,7 @@ int soma_com_entrada()
 
 int main()
 {
-  // utiliza o retorno da função soma_com_entrada como substituição para o
+  // Utiliza o retorno da função soma_com_entrada como substituição para o
   // especificador de formato %d
   printf("%d", soma_com_entrada());
   return 0;
