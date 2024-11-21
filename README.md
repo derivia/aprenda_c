@@ -45,7 +45,7 @@
    - Declaração e definição
    - Passagem de parâmetros
 
-5. Ponteiros
+5. [Ponteiros](./src/ponteiros/ponteiros.md)
    - Conceitos básicos de ponteiros
    - Aritmética de ponteiros
    - Ponteiros para funções
