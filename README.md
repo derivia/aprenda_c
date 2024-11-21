@@ -33,7 +33,6 @@
 2. [Entrada e saída básica](./src/io/io.md)
    - Funções printf() e scanf()
    - Formatação de saída
-   - Tratamento de entrada do usuário
    - Manipulação de strings
 
 3. Estruturas de controle

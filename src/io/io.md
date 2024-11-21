@@ -22,7 +22,6 @@ printf("Nome: %s\n", nome);
 ```
 > Ao utilizar %.2f invés de apenas %f, a representação da variável altura é limitada a 2 casas decimais.
 
-## Tratamento de entrada do usuário
 A função *scanf()* permite receber entrada do usuário, fazendo a leitura e armazenamento de dados
 
 ```c
