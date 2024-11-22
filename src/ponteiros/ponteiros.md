@@ -42,7 +42,29 @@ void mostra_valor(int *numero) // Função recebe o parâmetro numero, do tipo p
 }
 ```
 
-## @TODO: Aritmética de ponteiros
+## Aritmética de ponteiros
 
+- Um array é armazenado na memória de forma sequencial, tendo todos seus elementos do mesmo tipo.
+- A função sizeof() retorna quantos bytes um valor ocupa na memória.
+```c
+int tamanho = sizeof(42);
+printf("%d\n", tamanho); // Saída: Depende da CPU [Hoje em dia, 4]
+```
+- Um ponteiro para um array, como uma string, é uma referência ao endereço do primeiro elemento na memória.
+- É possível acessar os próximos elementos utilizando aritmética básica.
+```c
+int numeros[5] = {3, 1, 6, 2, 7}; // Instancia um array de 5 elementos inteiros
+int *numero_ptr = numeros;
+printf("%d\n", *numero_ptr); // Saída: 3
 
-## @TODO: Ponteiros para funções
+/*
+* Aumenta em +2 sizeof(int) o endereço apontado por numero_ptr
+* Efetivamente apontando 8 bytes à frente do endereço anterior
+* pois sizeof(int) = 4 [a depender da CPU]
+*/
+numero_ptr += 2;
+
+printf("%d\n", *numero_ptr); // Saída: 6
+```
+
+- Veja o código de exemplo: [Exemplo Ponteiros](./ponteiros.c)

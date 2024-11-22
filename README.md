@@ -48,20 +48,17 @@
 5. [Ponteiros](./src/ponteiros/ponteiros.md)
    - Conceitos básicos de ponteiros
    - Aritmética de ponteiros
-   - Ponteiros para funções
 
-6. Gerenciamento de memória
+6. [Strings](./src/strings/strings.md)
+   - Funções de manipulação de strings (string.h)
+
+8. [Gerenciamento de memória](./src/memoria/memoria.md)
    - Alocação dinâmica de memória
    - Prevenção de vazamentos de memória
    - Introdução ao Valgrind
 
-7. Arrays e strings
-   - Declaração e manipulação de arrays
-   - Strings como arrays de caracteres
-   - Funções de manipulação de strings
-
-8. Estruturas e unions
-   - Definição de structs
+8. [Estruturas e unions](./src/structs/structs.md)
+   - Definição de estruturas (structs)
    - Unions
    - Typedef
 
@@ -74,7 +71,6 @@
 10. Bibliotecas-padrão comuns
     - stdio.h
     - stdlib.h
-    - string.h
     - math.h
     - time.h
     - ctype.h
