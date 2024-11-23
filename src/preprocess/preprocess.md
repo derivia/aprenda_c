@@ -28,12 +28,13 @@ float area = PI * QUADRADO(raio);  // Substituído antes da compilação
 #endif
 ```
 
-- Inclusão de bibliotecas
-    - Bibliotecas padrão (standard libraries) são incluídas com <>
-    - Arquivos locais são incluídos com ""
-    ```c
-    #include <stdio.h>          // Biblioteca padrão
-    #include "minha_lib.h"      // Arquivo local
-    ```
+## Inclusão de bibliotecas
+
+- Bibliotecas padrão (standard libraries) são incluídas com <>
+- Arquivos locais são incluídos com ""
+```c
+#include <stdio.h>          // Biblioteca padrão
+#include "minha_lib.h"      // Arquivo local
+```
 
 - Veja o código de exemplo: [Exemplo de Preprocessamento](./preprocess.c)
