@@ -52,7 +52,7 @@
 6. [Strings](./src/strings/strings.md)
    - Funções de manipulação de strings (string.h)
 
-8. [Gerenciamento de memória](./src/memoria/memoria.md)
+7. [Gerenciamento de memória](./src/memoria/memoria.md)
    - Alocação dinâmica de memória
    - Prevenção de vazamentos de memória
    - Introdução ao Valgrind
@@ -62,13 +62,13 @@
    - Unions
    - Typedef
 
-9. Preprocessador
+9. [Preprocessador](./src/preprocess/preprocess.md)
     - Diretivas
     - Macros
     - Compilação condicional
     - Inclusão de bibliotecas
 
-10. Bibliotecas-padrão comuns
+10. [Bibliotecas-padrão comuns](./src/libs/libs.md)
     - stdio.h
     - stdlib.h
     - math.h

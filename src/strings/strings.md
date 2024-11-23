@@ -1,7 +1,6 @@
 ### Funções de manipulação de strings (string.h)
 
-- A biblioteca padrão de C possui uma biblioteca útil que facilita o uso de strings.
-- Funções comuns:
+- Funções comuns
     - strcat  -> concatena uma string modificável com outra string.
     - strcpy  -> copia o conteúdo de uma string para outra.
     - strcmp  -> compara duas strings lexicograficamente.
@@ -27,3 +26,5 @@
     char *last = strrchr(hello, 'l');       // Última ocorrência de 'l' em hello
     printf("%c\n", *last);                  // Saída: l
     ```
+
+- Veja o código de exemplo: [Exemplo de Strings](./strings.c)
