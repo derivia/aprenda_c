@@ -52,15 +52,16 @@
 6. [Strings](./src/strings/strings.md)
    - Funções de manipulação de strings (string.h)
 
-7. [Gerenciamento de memória](./src/memoria/memoria.md)
+7. [Estruturas e unions](./src/structs/structs.md)
+   - Definição de estruturas (structs)
+   - Básico de alocação dinâmica (malloc/free)
+   - Unions
+   - Typedef
+
+8. [Gerenciamento de memória](./src/memoria/memoria.md)
    - Alocação dinâmica de memória
    - Prevenção de vazamentos de memória
    - Introdução ao Valgrind
-
-8. [Estruturas e unions](./src/structs/structs.md)
-   - Definição de estruturas (structs)
-   - Unions
-   - Typedef
 
 9. [Preprocessador](./src/preprocess/preprocess.md)
     - Diretivas
