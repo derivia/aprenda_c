@@ -31,7 +31,7 @@ union Valor {
 
 ## Typedef
 
-- Cria um alias (espécie de apelido] para tipos existentes
+- Cria um alias (espécie de apelido) para tipos existentes
 - Útil para simplificar a declaração de estruturas
 ```c
 typedef struct {
