@@ -1,3 +1,7 @@
+/*
+ * Note que o arquivo headers.h foi incluido localmente
+ * Seu conteúdo tem as declarações das funções definidas no arquivo atual
+ */
 #include "headers.h"
 #include <stdio.h>
 
@@ -18,7 +22,8 @@ int validar_data(Data data)
 
   // Valida fevereiro para anos bissextos e não-bissextos
   if (data.mes == 2) {
-    int bissexto = (data.ano % 4 == 0 && data.ano % 100 != 0) || (data.ano % 400 == 0);
+    int bissexto =
+        (data.ano % 4 == 0 && data.ano % 100 != 0) || (data.ano % 400 == 0);
     if (data.dia > (bissexto ? 29 : 28))
       return 0;
   }
