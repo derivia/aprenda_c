@@ -1,4 +1,4 @@
-### Funções de manipulação de strings (string.h)
+## Funções de manipulação de strings (string.h)
 
 - Sempre que possível, utilize as funções de string.h ou bibliotecas externas que abstraiam o funcionamento de strings
     - Ao invés de tratar strings como arrays de caracteres, que pode acarretar problemas como [buffer overflow](https://pt.wikipedia.org/wiki/Transbordamento_de_dados)
