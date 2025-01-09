@@ -1,10 +1,10 @@
 ## Aprenda C
 > Assumindo que você já saiba alguma linguagem, por exemplo, Python.
 
-### Índice:
+### 📕 Índice:
 
 - [Roteiro de aprendizado](#roteiro-de-aprendizado)
-- [Diferenças entre C e Python](#diferencas-entre-c-e-python)
+- [Diferenças entre C e Python](#diferenças-entre-c-e-python)
 - [Leitura recomendada](#leitura-recomendada)
 
 ### Roteiro de aprendizado
